@@ -1,0 +1,47 @@
+@model IEnumerable<VentasElectronica.Models.DetalleCliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.clienteId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fecha_nacimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.mail)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.clienteId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha_nacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mail)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.DetalleClienteId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.DetalleClienteId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.DetalleClienteId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
