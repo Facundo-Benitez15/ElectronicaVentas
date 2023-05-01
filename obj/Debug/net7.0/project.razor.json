@@ -18675,6 +18675,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\facun\\Desktop\\Nueva carpeta\\ElectronicaVentas\\Views\\DetalleVenta\\Index.cshtml",
+      "TargetPath": "Views\\DetalleVenta\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\facun\\Desktop\\Nueva carpeta\\ElectronicaVentas\\Views\\Cliente\\Index.cshtml",
       "TargetPath": "Views\\Cliente\\Index.cshtml",
       "FileKind": "mvc"
@@ -18692,6 +18697,11 @@
     {
       "FilePath": "c:\\Users\\facun\\Desktop\\Nueva carpeta\\ElectronicaVentas\\Views\\Producto\\Create.cshtml",
       "TargetPath": "Views\\Producto\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\facun\\Desktop\\Nueva carpeta\\ElectronicaVentas\\Views\\DetalleVenta\\Edit.cshtml",
+      "TargetPath": "Views\\DetalleVenta\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18730,8 +18740,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\facun\\Desktop\\Nueva carpeta\\ElectronicaVentas\\Views\\DetalleVenta\\Delete.cshtml",
+      "TargetPath": "Views\\DetalleVenta\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\facun\\Desktop\\Nueva carpeta\\ElectronicaVentas\\Views\\Producto\\Edit.cshtml",
       "TargetPath": "Views\\Producto\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\facun\\Desktop\\Nueva carpeta\\ElectronicaVentas\\Views\\DetalleVenta\\Details.cshtml",
+      "TargetPath": "Views\\DetalleVenta\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18742,6 +18762,11 @@
     {
       "FilePath": "c:\\Users\\facun\\Desktop\\Nueva carpeta\\ElectronicaVentas\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\facun\\Desktop\\Nueva carpeta\\ElectronicaVentas\\Views\\DetalleVenta\\Create.cshtml",
+      "TargetPath": "Views\\DetalleVenta\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -23,5 +23,7 @@ namespace VentasElectronica.Data
 
         public DbSet<ElectronicaVentas.Models.Venta> Venta { get; set; } = default!;
 
+        public DbSet<ElectronicaVentas.Models.DetalleVenta> DetalleVenta { get; set; } = default!;
+
     }
 }
